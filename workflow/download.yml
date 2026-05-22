@@ -1,6 +1,5 @@
 name: Universal File Downloader
 
-# این workflow فقط زمانی اجرا می‌شود که شما خودتان دستی شروعش کنید
 on:
   workflow_dispatch:
     inputs:
@@ -14,23 +13,22 @@ jobs:
   download-file:
     runs-on: ubuntu-latest
     steps:
-      # 1. ابتدا کدهای خالی ریپازیتوری را دریافت می‌کند
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. کار اصلی: دانلود فایل با استفاده از curl
       - name: Download the file
         run: |
           echo "Starting download from: ${{ inputs.file_url }}"
-          # اینجا فایل دانلود می‌شود. نام فایل خروجی را 'my-file.zip' بگذارید.
           curl -L "${{ inputs.file_url }}" --output my-file.zip
           echo "Download completed!"
 
-      # 3. فایل دانلود شده را به ریپازیتوری گیت‌هاب اضافه می‌کند
       - name: Commit and push the file
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add my-file.zip
           git commit -m "Add downloaded file via GitHub Actions" || echo "No changes to commit"
           git push
