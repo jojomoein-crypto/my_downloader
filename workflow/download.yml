@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Download the file
         run: |
-          echo "Starting download from: ${{ inputs.file_url }}"
+          echo "Downloading from: ${{ inputs.file_url }}"
           curl -L "${{ inputs.file_url }}" --output my-file.zip
           echo "Download completed! File size:"
           ls -lh my-file.zip
