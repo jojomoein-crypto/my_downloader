@@ -1,0 +1,45 @@
+name: Download, Split and Push 90MB Parts
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_url:
+        description: 'لینک مستقیم فایل برای دانلود'
+        required: true
+        type: string
+      filename:
+        description: 'نام فایل خروجی (اختیاری)'
+        required: false
+        type: string
+
+jobs:
+  split-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download file
+        run: |
+          if [ -z "${{ inputs.filename }}" ]; then
+            FILENAME="downloaded_file"
+          else
+            FILENAME="${{ inputs.filename }}"
+          fi
+          echo "FILENAME=$FILENAME" >> $GITHUB_ENV
+          wget -O "$FILENAME" "${{ inputs.file_url }}"
+
+      - name: Split into 90MB parts
+        run: |
+          split -b 90m "${{ env.FILENAME }}" "part_"
+          rm "${{ env.FILENAME }}"
+
+      - name: Commit and push parts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add part_*
+          git commit -m "Add split parts (90MB each) from ${{ inputs.file_url }}" || echo "Nothing to commit"
+          git push origin HEAD:main
