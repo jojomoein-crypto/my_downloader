@@ -7,9 +7,9 @@ on:
         description: 'لینک مستقیم فایل برای دانلود'
         required: true                                          # neceserry or not
         type: string
-      filename:
-        description: 'نام فایل خروجی (اختیاری)'
-        required: false
+      foldername:
+        description: 'نام فولدر خروجی ذخیره ی فایل تکه شده'
+        required: true
         type: string
 
 jobs:
@@ -22,21 +22,17 @@ jobs:
         uses: actions/checkout@v4                               # clone repasitory to VM (virtual machine)
 
       - name: Create download directory
-        run: mkdir -p download                                  # -p (to refuse error)
+        run: mkdir -p ${{ inputs.foldername }}                  # -p (to refuse error)
 
       - name: Download file
         run: |                                                  # -z (to check filename)
-          if [ -z "${{ inputs.filename }}" ]; then
-            FILENAME="downloaded_file"
-          else
-            FILENAME="${{ inputs.filename }}"
-          fi
+          FILENAME="downloaded_file"
           echo "FILENAME=$FILENAME" >> $GITHUB_ENV
-          wget -O "download/$FILENAME" "${{ inputs.file_url }}"
+          wget -O "${{ inputs.foldername }}/$FILENAME" "${{ inputs.file_url }}"
 
       - name: Split into 90MB parts
         run: |
-          cd download
+          cd ${{ inputs.foldername }}
           split -b 90m "${{ env.FILENAME }}" "part_"
           rm "${{ env.FILENAME }}"
           cd ..
@@ -45,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add download/part_*
+          git add ${{ inputs.foldername }}/part_*
           git commit -m "Add split parts (90MB each) from ${{ inputs.file_url }}" || echo "Nothing to commit"
           git push origin HEAD:main
