@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="qyIKAxh2SWmqLFLBaNyOL5qiFMbEgZ8yFqVUmiet">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+        <title>WickedCC - Wicked Custom Content</title>
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+        <link rel="canonical" href="https://wicked.cc">
+
+        <link rel="preload" as="font" type="font/woff2" href="/fonts/montserrat/latin.woff2" crossorigin>
+
+        <style>body { visibility: hidden; }</style>
+        <link rel="preload" as="style" href="https://wicked.cc/build/assets/public-DHo_pulO.css" /><link rel="stylesheet" href="https://wicked.cc/build/assets/public-DHo_pulO.css" />
+        <meta name="description" content="Unleash your wildest fantasies with WickedCC, home of the most outstanding adult mods and custom content for The Sims 4." />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="WickedCC - Wicked Custom Content" />
+        <meta property="og:description" content="Unleash your wildest fantasies with WickedCC, home of the most outstanding adult mods and custom content for The Sims 4." />
+        <meta property="og:url" content="https://wicked.cc/" />
+        <meta property="og:site_name" content="WickedCC" />
+        <meta property="og:image" content="https://wicked.cc/images/og-image.png" />
+        <meta property="og:image:width" content="350" />
+        <meta property="og:image:height" content="350" />
+        <meta property="og:image:type" content="image/png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="WickedCC - Wicked Custom Content" />
+        <meta name="twitter:description" content="Unleash your wildest fantasies with WickedCC, home of the most outstanding adult mods and custom content for The Sims 4." />
+        <meta name="twitter:image" content="https://wicked.cc/images/og-image.png" />
+
+        <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://wicked.cc/","url":"https://wicked.cc/","name":"WickedCC - Wicked Custom Content","isPartOf":{"@id":"https://wicked.cc/#website"},"about":{"@id":"https://wicked.cc/#organization"},"description":"Unleash your wildest fantasies with WickedCC, home of the most outstanding adult mods and custom content for The Sims 4.","breadcrumb":{"@id":"https://wicked.cc/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://wicked.cc/"]}]},{"@type":"BreadcrumbList","@id":"https://wicked.cc/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://wicked.cc/#website","url":"https://wicked.cc/","name":"WickedCC","description":"","publisher":{"@id":"https://wicked.cc/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://wicked.cc/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://wicked.cc/#organization","name":"WickedCC","url":"https://wicked.cc/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://wicked.cc/#/schema/logo/image/","url":"https://wicked.cc/images/logo.png","contentUrl":"https://wicked.cc/images/logo.png","width":550,"height":250,"caption":"WickedCC"},"image":{"@id":"https://wicked.cc/#/schema/logo/image/"}}]}</script>
+
+                    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6MZ5HL9BGX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6MZ5HL9BGX');
+</script>
+            </head>
+    <body>
+                <div>
+            <div class="announcement-banner">
+    <div class="announcement-banner-content">Hey! Welcome to <b>WickedCC 2.0</b>, a complete overhaul of the website to improve quality, clarity, efficiency, lower costs, and prepare for future additions!<a href="https://wicked.cc/contact/"><br>Please contact us if you encounter any issues.</a></div>
+  </div>
+            <nav class="navbar">
+    <div class="navbar-inner">
+        <a href="https://wicked.cc">
+            <img class="navbar-logo" src="https://wicked.cc/images/logo.png" alt="WickedCC" />
+        </a>
+        <ul class="navbar-links">
+            <li><a href="https://wicked.cc">Home</a></li>
+            <li><a href="https://wicked.cc/categories">Categories</a></li>
+            <li><a href="https://wicked.cc/authors">Creators</a></li>
+            <li><a href="https://wicked.cc/about-us">About</a></li>
+            <li><a href="https://wicked.cc/contact">Contact</a></li>
+        </ul>
+        <button class="burger-menu" type="button" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="search-button">
+            <button type="button" class="search-submit">
+                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></span>
+                <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8L8 24" stroke="#909090" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/><path d="M8 8L24 24" stroke="#909090" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/></svg></span>
+            </button>
+        </div>
+                <div class="navbar-search-bar">
+            <div class="navbar-search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </div>
+            <form action="https://wicked.cc/search" method="GET">
+                <input type="text" name="s" placeholder="Search" autocomplete="off" />
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+<aside class="mobile-menu">
+    <button class="mobile-menu-close" type="button" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8L8 24" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/><path d="M8 8L24 24" stroke="#fff" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/></svg>
+    </button>
+    <ul class="mobile-menu-links">
+        <li><a href="https://wicked.cc">Home</a></li>
+        <li><a href="https://wicked.cc/categories">Categories</a></li>
+        <li><a href="https://wicked.cc/authors">Creators</a></li>
+        <li><a href="https://wicked.cc/about-us">About</a></li>
+        <li><a href="https://wicked.cc/contact">Contact</a></li>
+    </ul>
+</aside>
+<script>
+document.querySelector('.search-submit').addEventListener('click', function() {
+    document.body.classList.toggle('active-search');
+    var bar = document.querySelector('.navbar-search-bar');
+    bar.classList.toggle('active');
+    if (bar.classList.contains('active')) {
+        setTimeout(function() {
+            bar.querySelector('input').focus();
+        }, 300);
+    }
+});
+
+// Mobile menu
+(function() {
+    var burger = document.querySelector('.burger-menu');
+    var closeBtn = document.querySelector('.mobile-menu-close');
+    var overlay;
+
+    function open() {
+        overlay = document.createElement('div');
+        overlay.className = 'mobile-menu-overlay';
+        document.body.appendChild(overlay);
+        document.body.classList.add('mobile-menu-open');
+        overlay.addEventListener('click', close);
+    }
+
+    function close() {
+        document.body.classList.remove('mobile-menu-open');
+        if (overlay) {
+            overlay.remove();
+            overlay = null;
+        }
+    }
+
+    burger.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+})();
+</script>
+<button class="image-toggle-btn" onclick="toggleImages()" title="Toggle images">
+    <svg class="icon-eye" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+        <circle cx="12" cy="12" r="3"/>
+    </svg>
+    <svg class="icon-eye-off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+        <line x1="1" y1="1" x2="23" y2="23"/>
+    </svg>
+</button>
+<script src="https://wicked.cc/js/image-toggle.js?v=1782104360"></script>
+
+            <main>
+                <section class="hero">
+        <div class="container">
+            <svg class="hero-title" viewBox="0 0 1170 60" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Explore wicked content from wonderful creators.">
+                <text x="0" y="46" textLength="1170" lengthAdjust="spacing">Explore wicked content from wonderful creators.</text>
+            </svg>
+            <svg class="hero-subtitle" viewBox="0 0 1235 32" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Download adult mods, custom clothing, bodies, objects, animations, and more for The Sims 4.">
+                <text x="0" y="25" textLength="1235" lengthAdjust="spacing">Download adult mods, custom clothing, bodies, objects, animations, and more for <tspan font-weight="700">The Sims 4</tspan>.</text>
+            </svg>
+        </div>
+    </section>
+
+            <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Content</h2>
+                </div>
+                <div class="posts-grid">
+                                            <a href="https://wicked.cc/animations/anarcis/anarcis-animations-for-wickedwhims" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/739/COVER.jpg"
+                alt="Anarcis&#039; Animations for WickedWhims"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/127/photo-1341781.png" alt="Anarcis">
+        </div>
+        <div>
+            <h3 class="post-card-title">Anarcis&#039; Animations for WickedWhims</h3>
+            <span class="post-card-category">Animations</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/clothing/sm-sims/cheeky-tank-top-remake" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4371/SMSims_cheekytanktopREMAKE_merged.png"
+                alt="Cheeky Tank Top REMAKE ~UNDRESSABLE~"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/123/circlelogo.png" alt="SM Sims">
+        </div>
+        <div>
+            <h3 class="post-card-title">Cheeky Tank Top REMAKE ~UNDRESSABLE~</h3>
+            <span class="post-card-category">Clothing</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/clothing/sm-sims/tamiel-chastity-cage-remake" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4369/SMSims_tamielchastitycageREMAKE.png"
+                alt="Tamiel Chastity Cage REMAKE"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/123/circlelogo.png" alt="SM Sims">
+        </div>
+        <div>
+            <h3 class="post-card-title">Tamiel Chastity Cage REMAKE</h3>
+            <span class="post-card-category">Clothing</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/animations/sexylunella/may-update-sexylunella-animations-for-wickedwhims-350-anims" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/342/Wickedcc2-1732151248.jpg"
+                alt="SexyLunella Animations for WickedWhims (550+ anims)"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/108/ProfilePic.jpg" alt="SexyLunella">
+        </div>
+        <div>
+            <h3 class="post-card-title">SexyLunella Animations for WickedWhims (550+ anims)</h3>
+            <span class="post-card-category">Animations</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/animations/greynaya/greynaya-animations" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4367/cover-wickedcc11.png"
+                alt="GreyNaya Animations"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/103/123.jpg" alt="GreyNaya">
+        </div>
+        <div>
+            <h3 class="post-card-title">GreyNaya Animations</h3>
+            <span class="post-card-category">Animations</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/animations/0nizu/0nizu-animations-for-wickedwhims" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/785/00-WickedCC-Copy-1730223202.jpg"
+                alt="0nizu Animations for WickedWhims"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/135/ezgif-3-dbc8cd65c5.gif" alt="0nizu">
+        </div>
+        <div>
+            <h3 class="post-card-title">0nizu Animations for WickedWhims</h3>
+            <span class="post-card-category">Animations</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/clothing/blue-craving/blue-craving-unexpected-fairies" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4362/[Blue-Craving]-Unexpected-Fairies---Undressable.png"
+                alt="Blue Craving - Unexpected Fairies"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/100/20220213_001657.jpg" alt="Blue Craving">
+        </div>
+        <div>
+            <h3 class="post-card-title">Blue Craving - Unexpected Fairies</h3>
+            <span class="post-card-category">Clothing</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/clothing/sm-sims/racey-lace-dress-remake" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4359/SMSims_raceylacedressREMAKE.png"
+                alt="Racey Lace Dress REMAKE"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/123/circlelogo.png" alt="SM Sims">
+        </div>
+        <div>
+            <h3 class="post-card-title">Racey Lace Dress REMAKE</h3>
+            <span class="post-card-category">Clothing</span>
+        </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/animations/creamydelicious/creamydelicious-animations" class="post-card">
+    <div class="post-card-image">
+                    <img
+                src="https://wicked.cc/storage/4358/Nowy-projekt(95).png"
+                alt="🥥𝑪𝒓𝒆𝒂𝒎𝒚𝒅𝒆𝒍𝒊𝒄𝒊𝒐𝒖𝒔🥥Animations with Custom Sound Effects (+50 New Animations 7.06.2026😱) 3.0.0"
+            >
+            </div>
+    <div class="post-card-content">
+        <div class="post-card-avatar">
+            <img src="https://wicked.cc/storage/138/Screenshot_10.png" alt="Creamydelicious">
+        </div>
+        <div>
+            <h3 class="post-card-title">🥥𝑪𝒓𝒆𝒂𝒎𝒚𝒅𝒆𝒍𝒊𝒄𝒊𝒐𝒖𝒔🥥Animations with Custom Sound Effects (+50 New Animations 7.06.2026😱) 3.0.0</h3>
+            <span class="post-card-category">Animations</span>
+        </div>
+    </div>
+</a>
+                                    </div>
+                <a href="https://wicked.cc/all-content" class="section-link">View All Content</a>
+            </div>
+        </section>
+    
+            <section class="section section-dark">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Categories</h2>
+                </div>
+                <div class="categories-grid">
+                                            <a href="https://wicked.cc/mods" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/836/mods.jpg"
+                alt="Mods"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Mods</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/clothing" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/837/clothing.jpg"
+                alt="Clothing"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Clothing</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/objects" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/838/objects.jpg"
+                alt="Objects"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Objects</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/animations" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/839/animations.jpg"
+                alt="Animations"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Animations</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/body" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/840/body.jpg"
+                alt="Body"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Body</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/accessories" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/841/accessories.jpg"
+                alt="Accessories"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Accessories</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/translations" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/842/translations.jpg"
+                alt="Translations"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Translations</h3>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/other" class="category-card">
+    <div class="category-card-image">
+                    <img
+                src="https://wicked.cc/storage/843/other.jpg"
+                alt="Other"
+            >
+            </div>
+    <div class="category-card-content">
+        <h3 class="category-card-title">Other</h3>
+    </div>
+</a>
+                                    </div>
+            </div>
+        </section>
+    
+            <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Creators</h2>
+                </div>
+                <div class="creators-grid">
+                                            <a href="https://wicked.cc/author/spent" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/117/WickedPFPFull.png"
+            alt="Spent"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Spent</h3>
+                            <p class="creator-card-bio">Hot and Fresh Cum Content
+</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Mods</span>
+                                    <span class="creator-card-tag">Clothing</span>
+                                    <span class="creator-card-tag">Other</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>1.9M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/blue-craving" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/100/20220213_001657.jpg"
+            alt="Blue Craving"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Blue Craving</h3>
+                            <p class="creator-card-bio">Hi, 
+I Create NSFW Clothes for the Sims 4 ♥
+If you enjoy my work, please consider supporting!
+https://www.patreon.com/BlueCraving</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Clothing</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>4.4M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/beto" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/112/sssssssssssssss.jpg"
+            alt="Beto"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Beto</h3>
+                            <p class="creator-card-bio">Hello, I am a creator of very sexy clothes and accessories.</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Clothing</span>
+                                    <span class="creator-card-tag">Accessories</span>
+                                    <span class="creator-card-tag">Objects</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>5.7M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/mike24" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/110/M24.jpg"
+            alt="Mike24"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Mike24</h3>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Animations</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>2.9M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/true-ai" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/131/JaimeReyes-Profile.jpg"
+            alt="True AI"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">True AI</h3>
+                            <p class="creator-card-bio">I&#039;m the creator of Vulgar Language for WickedWhims. Let your Sims get even nastier — get vulgar!</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Mods</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>561.9k</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/beebavel" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/142/BEEBAVELpp3-1.png"
+            alt="Beebavel"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Beebavel</h3>
+                            <p class="creator-card-bio">I make Segs animations for the WickedWhims (Sims 4) 
+
+</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Animations</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>672.6k</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/creamydelicious" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/138/Screenshot_10.png"
+            alt="Creamydelicious"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Creamydelicious</h3>
+                            <p class="creator-card-bio">Hi!
+I make animations in the realistic and passionate style I can 😎</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Animations</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>1.0M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                            <a href="https://wicked.cc/author/cipher" class="creator-card">
+    <div class="creator-card-avatar">
+        <img
+            src="https://wicked.cc/storage/132/59.png"
+            alt="Cipher Uvs"
+        >
+    </div>
+    <div class="creator-card-body">
+        <div>
+            <h3 class="creator-card-name">Cipher Uvs</h3>
+                            <p class="creator-card-bio">I Make Solo, Lesbians &amp;amp; Couple Animations . My Fav Location Is Double Bed And Sofa . WHY!? Because That`s The Most Comfy Spot ~</p>
+                    </div>
+        <div class="creator-card-footer">
+            <div class="creator-card-tags">
+                                    <span class="creator-card-tag">Animations</span>
+                            </div>
+                            <div class="creator-card-downloads">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 15V3"/>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+  <path d="m7 10 5 5 5-5"/>
+</svg>                                        <span>4.1M</span>
+                </div>
+                    </div>
+    </div>
+</a>
+                                    </div>
+                <a href="https://wicked.cc/authors" class="section-link">View All Creators</a>
+            </div>
+        </section>
+            </main>
+
+            <footer class="footer-nav">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4 class="footer-heading">Categories</h4>
+                <ul class="footer-links">
+                    <li><a href="https://wicked.cc/mods">Mods</a></li>
+                    <li><a href="https://wicked.cc/animations">Animations</a></li>
+                    <li><a href="https://wicked.cc/body">Body</a></li>
+                    <li><a href="https://wicked.cc/clothing">Clothing</a></li>
+                    <li><a href="https://wicked.cc/accessories">Accessories</a></li>
+                    <li><a href="https://wicked.cc/objects">Objects</a></li>
+                    <li><a href="https://wicked.cc/translations">Translations</a></li>
+                    <li><a href="https://wicked.cc/other">Other</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Support</h4>
+                <ul class="footer-links">
+                    <li><a href="https://wicked.cc/beginners-guide">Where to start?</a></li>
+                    <li><a href="https://wicked.cc/mod-installation">How to install mods?</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Notify</h4>
+                <ul class="footer-links">
+                    <li><a href="https://discord.gg/Bpb9paybZu">Discord</a></li>
+                    <li><a href="https://www.tumblr.com/wickedmodding">Tumblr</a></li>
+                    <li><a href="https://twitter.com/WickedModding">Twitter/X</a></li>
+                    <li><a href="https://bsky.app/profile/wickedcc.bsky.social">Bluesky</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Other</h4>
+                <ul class="footer-links">
+                    <li><a href="https://wicked.cc/about-us">About</a></li>
+                    <li><a href="https://wicked.cc/contact">Contact</a></li>
+                    <li><a href="https://wicked.cc/terms">Terms of Use</a></li>
+                    <li><a href="https://www.ea.com/en/games/the-sims/the-sims-4/buy">Get The Sims 4™ for Free</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+</footer>
+<div class="footer-legal">
+    <div class="container">
+        <span class="footer-copyright"><strong>WickedCC</strong> &mdash; 2024-2026</span>
+        <span class="footer-disclaimer">This website and its materials are not made, endorsed, guaranteed, or supported by Electronic Arts or their affiliates.</span>
+        <a href="https://wicked.cc/terms" class="footer-terms">Terms of Use</a>
+    </div>
+</div>
+        </div>
+
+        <div id="modal_agreement">
+    <div class="column-content">
+        <h1>+18 Content Ahead!</h1>
+        <h2>This website contains age-restricted content.</h2>
+        <div class="description">
+            <p>If you are under the age of 18 years, or under the age of majority in the location from where you are accessing this website you do not have authorization or permission to enter this website or access any of its materials.</p>
+        </div>
+        <button id="action-check-agree">Enter</button>
+    </div>
+    <div class="column-banner">
+        <img src="https://wicked.cc/images/warning.jpg" alt="" />
+    </div>
+</div>
+<div class="overlay-modal_agreement"></div>
+<script>
+(function() {
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? match[2] : '';
+    }
+    function setCookie(name, value, days) {
+        var d = new Date();
+        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = name + '=' + value + ';expires=' + d.toUTCString() + ';path=/';
+    }
+    if (!getCookie('agreement')) {
+        var modal = document.getElementById('modal_agreement');
+        var overlay = document.querySelector('.overlay-modal_agreement');
+
+        modal.style.display = 'flex';
+        modal.style.opacity = '1';
+        overlay.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+
+        document.getElementById('action-check-agree').addEventListener('click', function() {
+            setCookie('agreement', 'true', 3);
+            modal.style.opacity = '0';
+            modal.addEventListener('transitionend', function() {
+                modal.style.display = 'none';
+                overlay.style.display = 'none';
+                document.body.style.overflow = '';
+            }, { once: true });
+        });
+    }
+})();
+</script>
+
+        
+    </body>
+</html>
